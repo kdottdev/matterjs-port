@@ -1,0 +1,59 @@
+.cs-cta.cs-style1 {
+  padding: 90px 30px;
+  border-radius: 15px;
+}
+.cs-cta.cs-style1 .cs-cta_in {
+  position: relative;
+  z-index: 2;
+}
+.cs-cta.cs-style1 .cs-cta_title {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.smash_button {
+  border: 5px solid #9333ea;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 5s opacity ease;
+}
+.smash_button:hover {
+  background: rgba(147, 51, 234, 0.8);
+}
+.smash_button span {
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1300px) {
+  .cs-cta.cs-style1 .cs-cta_title {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cs-cta.cs-style1 {
+    padding: 70px 30px;
+    border-radius: 15px;
+  }
+  .cs-cta.cs-style1 .cs-cta_title {
+    font-size: 36px;
+  }
+  .cs-cta.cs-style1 .cs-cta_title br {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cs-cta.cs-style1 br {
+    display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  .cs-cta.cs-style1 {
+    padding: 70px 20px;
+  }
+  .cs-cta.cs-style1 .cs-cta_title {
+    font-size: 28px;
+  }
+}/*# sourceMappingURL=cta.css.map */

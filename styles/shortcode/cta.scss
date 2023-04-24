@@ -1,0 +1,63 @@
+.cs-cta.cs-style1 {
+  padding: 90px 30px;
+  border-radius: 15px;
+  .cs-cta_in {
+    position: relative;
+    z-index: 2;
+  }
+  .cs-cta_title {
+    font-weight: 600;
+    font-size: 50px;
+  }
+}
+
+.smash_button {
+  border: 5px solid #9333ea;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 5s opacity ease;
+
+  &:hover {
+    background: rgba(#9333ea, 0.8);
+  }
+
+  span {
+    color: #f2f2f2;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .cs-cta.cs-style1 .cs-cta_title {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cs-cta.cs-style1 {
+    padding: 70px 30px;
+    border-radius: 15px;
+    .cs-cta_title {
+      font-size: 36px;
+      br {
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .cs-cta.cs-style1 {
+    br {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .cs-cta.cs-style1 {
+    padding: 70px 20px;
+    .cs-cta_title {
+      font-size: 28px;
+    }
+  }
+}

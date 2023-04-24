@@ -1,0 +1,48 @@
+.preloader {
+  background: #131314;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prl-logo {
+  font-size: 1.3rem;
+  z-index: 2;
+}
+
+.lightCyan-slider,
+.persianGreen-slider,
+.white-slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+}
+.lightCyan-slider.lightCyan-slider,
+.persianGreen-slider.lightCyan-slider,
+.white-slider.lightCyan-slider {
+  background: #d5f2ef;
+}
+.lightCyan-slider.persianGreen-slider,
+.persianGreen-slider.persianGreen-slider,
+.white-slider.persianGreen-slider {
+  background: #9333ea;
+}
+.lightCyan-slider.white-slider,
+.persianGreen-slider.white-slider,
+.white-slider.white-slider {
+  background: #fff;
+}
+
+.hide {
+  opacity: 0;
+  color: #03a6a6;
+  font-weight: lighter;
+}/*# sourceMappingURL=loader.css.map */
